@@ -100,3 +100,7 @@ a:visited {
         padding: 0;
     }
 }
+
+.boton-formulario:hover{
+background-color: rgb(11, 115, 129);
+}

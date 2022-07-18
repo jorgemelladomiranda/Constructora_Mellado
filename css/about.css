@@ -81,12 +81,16 @@ a:visited {
 
 }
 
-.contenedor-imagenes img {
+.contenedor-imagenes .persona {
     width: 280px;
     height: 300px;
     border-radius: 5px;
 }
 
+.contenedor-imagenes .persona:hover{
+    transition: transform 0.7s ease;
+    transform: scale(1.1);
+}
 .contenedor-imagenes {
     margin-top: 80px;
     display: grid;
