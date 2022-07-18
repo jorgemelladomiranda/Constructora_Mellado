@@ -1,0 +1,102 @@
+body {
+    background-image: url(../img/Imagen_Fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body,
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    color: white;
+    text-align: left;
+    margin-left: 70px;
+    text-shadow: 2px 3px 4px black;
+}
+
+.paginas {
+    text-align: right;
+    font-size: 20px;
+    padding: 0px 40px;
+}
+
+.paginas a {
+    margin-left: 10px;
+    padding-left: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    border-left: 1px solid white;
+    text-shadow: 2px 3px 4px black;
+}
+
+a:visited {
+    color: whitesmoke;
+}
+
+.contact {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 3px 4px black;
+
+}
+
+.formulario {
+    display: block;
+    text-align: left;
+    margin: auto;
+    color: white;
+    max-width: 500px;
+}
+
+.grupo-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.grupo-inputs label {
+    text-shadow: 2px 3px 4px black;
+}
+
+.grupo-inputs input {
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+.maps {
+    margin-left: 280px;
+}
+
+.contenedor-mapa {
+    overflow: hidden;
+    padding-bottom: 40.25%;
+    position: relative;
+    height: 0;
+}
+
+.contenedor-mapa iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+@media screen and (max-width: 760px) {
+    .paginas {
+        margin-top: 50px;
+        text-align: center;
+        font-size: 16px;
+        padding: 0;
+    }
+}

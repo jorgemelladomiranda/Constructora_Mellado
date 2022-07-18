@@ -1,0 +1,116 @@
+body {
+    background-image: url(../img/Imagen_Fondo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body,
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    padding: 30px 40px;
+}
+
+.informacion {
+    margin: auto;
+    margin-top: 100px;
+    width: 70%;
+}
+
+.title {
+    color: white;
+    text-align: left;
+    margin-left: 70px;
+    text-shadow: 2px 3px 4px black;
+
+}
+
+.paginas {
+    text-align: right;
+    font-size: 20px;
+}
+
+.paginas a {
+    margin-left: 10px;
+    padding-left: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    border-left: 1px solid white;
+    text-shadow: 1px 2px 4px black;
+
+}
+
+a:visited {
+    color: whitesmoke;
+}
+
+.subtitle {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 3px 4px black;
+
+}
+
+.parrafo {
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 2px 3px 4px black;
+
+}
+
+.definicion {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 2px 3px 4px black;
+
+}
+
+.vision {
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 3px 4px black;
+
+}
+
+.contenedor-imagenes img {
+    width: 280px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.contenedor-imagenes {
+    margin-top: 80px;
+    display: grid;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    justify-items: center;
+}
+
+@media screen and (max-width: 760px) {
+    .container {
+        padding: 0px 10px;
+    }
+
+    .title {
+        margin: 20px 0px;
+        text-align: center;
+    }
+
+    .paginas {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .informacion {
+        width: 100%;
+    }
+}
