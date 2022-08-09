@@ -1,3 +1,6 @@
+$color1: white;
+$color2: yellow;
+
 body {
     background-image: url(../img/Imagen_Fondo.jpg);
     background-repeat: no-repeat;
@@ -11,7 +14,7 @@ html {
 }
 
 .title {
-    color: white;
+    color: $color1;
     text-align: left;
     margin-left: 70px;
     text-shadow: 2px 3px 4px black;
@@ -26,34 +29,34 @@ html {
 .paginas a {
     margin-left: 10px;
     padding-left: 10px;
-    color: whitesmoke;
+    color: $color1;
     text-decoration: none;
-    border-left: 1px solid white;
+    border-left: 1px solid $color1;
     text-shadow: 1px 2px 4px black;
 
 
 }
 
 a:visited {
-    color: whitesmoke;
+    color: $color1;
 }
 
 .titulo-servicios {
     margin-top: 50px;
-    color: white;
+    color: $color1;
     font-size: 40px;
     text-shadow: 2px 3px 4px black;
 }
 
 .servicios {
-    color: white;
+    color: $color1;
     font-size: 40px;
     text-shadow: 2px 3px 4px black;
 }
 
 .contratacion {
     margin-top: 30px;
-    color: yellow;
+    color: $color2;
     font-size: 30px;
 }
 
@@ -92,7 +95,7 @@ a:visited {
 
     .titulo-servicios {
         text-align: center;
-        color: white;
+        color: $color1;
         font-size: 40px;
         text-shadow: 2px 3px 4px black;
     }

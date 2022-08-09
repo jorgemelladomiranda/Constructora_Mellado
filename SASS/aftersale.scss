@@ -1,3 +1,7 @@
+$color1:white;
+$color2:Black;
+$color3:blue;
+
 body {
     background-image: url(../img/Imagen_Fondo.jpg);
     background-repeat: no-repeat;
@@ -11,10 +15,10 @@ html {
 }
 
 .title {
-    color: white;
+    color: $color1;
     text-align: left;
     margin-left: 70px;
-    text-shadow: 2px 3px 4px black;
+    text-shadow: 2px 3px 4px $color2;
 
 }
 
@@ -27,41 +31,41 @@ html {
 .paginas a {
     margin-left: 10px;
     padding-left: 10px;
-    color: whitesmoke;
+    color: $color3;
     text-decoration: none;
-    border-left: 1px solid white;
-    text-shadow: 2px 3px 4px black;
+    border-left: 1px solid $color2;
+    text-shadow: 2px 3px 4px $color2;
 
 
 }
 
 a:visited {
-    color: whitesmoke;
+    color: $color1;
 }
 
 .subtitle {
     font-size: 50px;
-    color: white;
-    text-shadow: 2px 3px 4px black;
+    color: $color1;
+    text-shadow: 2px 3px 4px $color2;
 }
 
 .tabla {
     color: black;
-    background-color: aqua;
+    background-color: $color3;
     text-align: center;
     margin-top: 50px;
 }
 
 .contenedor-informacion h3 {
-    text-shadow: 2px 3px 4px black;
+    text-shadow: 2px 3px 4px $color2;
 }
 
 .texto {
-    color: white;
+    color: $color1;
 }
 
 .texto li {
-    text-shadow: 2px 3px 4px black;
+    text-shadow: 2px 3px 4px $color2;
 }
 
 @media screen and (max-width: 760px) {

@@ -1,3 +1,7 @@
+$color1: white;
+$color2:black;
+
+
 body {
     background-image: url(../img/Imagen_Fondo.jpg);
     background-repeat: no-repeat;
@@ -17,7 +21,7 @@ html {
 }
 
 .title {
-    color: white;
+    color: $color1;
     text-align: left;
     margin-left: 70px;
     text-shadow: 2px 3px 4px black;
@@ -33,14 +37,14 @@ html {
 .paginas a {
     margin-left: 10px;
     padding-left: 10px;
-    color: whitesmoke;
+    color: $color1;
     text-decoration: none;
-    border-left: 1px solid white;
+    border-left: 1px solid $color1;
     text-shadow: 2px 3px 4px black;
 }
 
 a:visited {
-    color: whitesmoke;
+    color: $color1;
 }
 
 .videos {
@@ -52,21 +56,21 @@ a:visited {
 .subtitle {
     text-align: center;
     font-size: 50px;
-    color: white;
-    text-shadow: 2px 3px 4px black;
+    color: $color1;
+    text-shadow: 2px 3px 4px $color2;
 }
 
 .parrafo {
     font-size: 25px;
     border-left: 10px;
     text-align: center;
-    color: whitesmoke;
+    color: $color1;
     margin-top: 50px;
     display: flex;
 }
 
 .parrafo>p {
-    text-shadow: 2px 3px 4px black;
+    text-shadow: 2px 3px 4px $color2;
 }
 
 @media screen and (min-width: 360px) and (max-width: 450px) {
